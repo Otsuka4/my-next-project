@@ -37,16 +37,15 @@ body {
 
 body {
   font-family:
-  -apple-system, 
-  BlinkMacSystemFont, 
-  "Helvetica Neue",
-  YuGothic,
-  "ヒラギノ角ゴ RroN W3", 
-  Hiragino Kaku Gothic Pron,
-  Arial, 
-  "メイリオ", Meiryo,
-  sans-serif,
-  ;
+    -apple-system, 
+    BlinkMacSystemFont, 
+    "Helvetica Neue",
+    YuGothic,
+    "ヒラギノ角ゴ RroN W3", 
+    Hiragino Kaku Gothic Pron,
+    Arial, 
+    "メイリオ", Meiryo,
+    sans-serif;
   color: var(--color-text-main);
   line-height: 1.8;
 }
