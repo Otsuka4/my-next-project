@@ -10,7 +10,7 @@ type Props = {
 
 export default function NewList({ news }: Props) {
     if (news.length === 0) {
-        return <p>記事がありません。</p>
+        return <p>記事がありません。</p>;
     }
     return (
         <ul>
@@ -19,8 +19,8 @@ export default function NewList({ news }: Props) {
                     <div className={styles.link}>
                         <Image
                             className={styles.image}
-                            src="/no-image.jpg"
-                            alt=""
+                            src="/no-image.png"
+                            alt="no-image"
                             width={1200}
                             height={630}
                         />
